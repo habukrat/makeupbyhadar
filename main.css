@@ -1,8 +1,9 @@
 .header {
-	font-size: 30px;
+	font-size: 60px;
 	display: block;
 	text-align: center;
 	margin: auto;
+	font-family: 'Parisienne';
 }
 
 #nav > ul > li {
@@ -10,15 +11,14 @@
 	/*text-align: center;*/
 	padding: 0 1.5em 0 1.5em;
 	color: #1c1c1c;
-	text-decoration: none;
-}
-
-#nav > ul > li: hover{
-	color: #4d4c4c;
+	text-decoration: none !important;
+	font-size: 20px;
+	font-family: 'Arimo';
 }
 
 #nav {
 	text-align: center;
+	text-decoration: none;
 }
 
 
@@ -27,7 +27,7 @@
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 500px;
+  max-width: 450px;
   position: relative;
   margin: auto;
 }
