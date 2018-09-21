@@ -19,7 +19,7 @@
 /* Slideshow container */
 .slideshow-container {
   /*max-width: 500px;*/
-  max-height: 500px;
+  max-height: 100px;
   position: relative;
   margin: auto;
 }
