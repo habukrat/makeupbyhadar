@@ -2,17 +2,23 @@
 	font-size: 30px;
 }
 
-#nav > ul > li{
+#nav > ul > li {
 	display: inline-block;
 	text-align: center;
 	padding: 0 1.5em 0 1.5em;
 }
 
+#nav {
+	position: absolute;
+}
+
+
+
 * {box-sizing:border-box}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 500px;
+  /*max-width: 500px;*/
   max-height: 500px;
   position: relative;
   margin: auto;
