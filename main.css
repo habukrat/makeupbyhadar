@@ -1,5 +1,6 @@
 .header {
 	font-size: 30px;
+	display: inline-block;
 	text-align: center;
 }
 
@@ -20,7 +21,6 @@
 /* Slideshow container */
 .slideshow-container {
   max-width: 500px;
-  max-height: 400px;
   position: relative;
   margin: auto;
 }
