@@ -2,7 +2,7 @@
 	font-size: 30px;
 }
 
-#nav{
+#nav > ul > li{
 	display: inline-block;
 	text-align: center;
 	padding: 0 1.5em 0 1.5em;
