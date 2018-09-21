@@ -12,7 +12,7 @@
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 100px;
+  max-width: 2em;
   position: relative;
   margin: auto;
 }
