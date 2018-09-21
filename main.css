@@ -13,6 +13,7 @@
 /* Slideshow container */
 .slideshow-container {
   max-width: 500px;
+  max-height: 500px;
   position: relative;
   margin: auto;
 }
