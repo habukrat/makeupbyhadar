@@ -9,6 +9,12 @@
 	display: inline-block;
 	/*text-align: center;*/
 	padding: 0 1.5em 0 1.5em;
+	color: #1c1c1c;
+	text-decoration: none;
+}
+
+#nav > ul > li: hover{
+	color: #4d4c4c;
 }
 
 #nav {
