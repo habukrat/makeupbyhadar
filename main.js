@@ -26,3 +26,8 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block"; 
   dots[slideIndex-1].className += " active";
 }
+
+function modal(element) {
+  document.getElementById("image").src = element.src;
+  document.getElementById("modal").style.display = "block";
+}
