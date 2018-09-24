@@ -1,3 +1,8 @@
+body {
+	background-color: #ffdfe9;
+	margin-left: 20px;
+}
+
 .header {
 	font-size: 60px;
 	display: block;
@@ -12,13 +17,44 @@
 	padding: 0 1.5em 0 1.5em;
 	color: #1c1c1c;
 	text-decoration: none !important;
-	font-size: 20px;
+	font-size: 2.5vw;
 	font-family: 'Arimo';
+}
+
+li {
+	text-decoration: none;
+	color: black;
 }
 
 #nav {
 	text-align: center;
 	text-decoration: none;
+}
+
+
+
+.row {
+    margin: 8px -16px;
+    text-align: center;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+    padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 
