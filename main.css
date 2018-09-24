@@ -11,24 +11,23 @@ body {
 	font-family: 'Parisienne';
 }
 
-#nav > ul > li {
+li {
 	display: inline-block;
 	/*text-align: center;*/
 	padding: 0 1.5em 0 1.5em;
 	color: #1c1c1c;
-	text-decoration: none !important;
-	font-size: 2.5vw;
-	font-family: 'Arimo';
+	font-size: 2.2vw;
+	font-family: 'Dosis', sans-serif;
 }
 
-li {
+li > a {
 	text-decoration: none;
 	color: black;
 }
 
 #nav {
 	text-align: center;
-	text-decoration: none;
+	margin-right: 50px;
 }
 
 
@@ -48,6 +47,7 @@ li {
 .column {
     float: left;
     width: 33%;
+    height: 33%;
 }
 
 /* Clear floats after rows */ 
