@@ -10,9 +10,10 @@
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Parisienne|Dosis">
 		<link rel="icon" href="images/logo.png">
 		<script src="main.js"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
 	</head>
 
-	<body onload="showSlides(1)">
+	<body onload="myMap()">
 		<div>
 
 			<!-- Header -->
@@ -31,29 +32,34 @@
 
 			</div>
 
-			<!-- Contact Form -->
-            <section>
-                <form method="post" action="https://formspree.io/hadarabukrat@gmail.com">
-                    <div>
-                        <input type="text" name="name" id="contact-name" placeholder="Name" />
-                    </div>
-                    <div>
-                        <input type="text" name="email" id="contact-email" placeholder="Email" />
-                    </div>
-                    <div>
-                        <input type="text" name="subject" id="contact-subject" placeholder="Subject" />
-                    </div>
-                    <div>
-                        <textarea name="message" id="contact-message" placeholder="Message" rows="4"></textarea>
-                    </div>
-                    <div class="12u">
-                        <ul class="actions">
-                            <li><button type="submit" class="style1" value="Send" id="sendMessage" />Submit</li>
-                            <h2 id="thankyou"> Thank you! :) </h2>
-                        </ul>
-                    </div>
-                </form>
-            </section>
+			<div id="contact">
+				<!-- Map -->
+				<div id="map">My map will go here</div>
+
+				<!-- Contact Form -->
+	            <section>
+	                <form method="post" action="https://formspree.io/hadarabukrat@gmail.com">
+	                    <div>
+	                        <input type="text" name="name" id="contact-name" placeholder="Name" />
+	                    </div>
+	                    <div>
+	                        <input type="text" name="email" id="contact-email" placeholder="Email" />
+	                    </div>
+	                    <div>
+	                        <input type="text" name="subject" id="contact-subject" placeholder="Subject" />
+	                    </div>
+	                    <div>
+	                        <textarea name="message" id="contact-message" placeholder="Message" rows="4"></textarea>
+	                    </div>
+	                    <div class="12u">
+	                        <ul class="actions">
+	                            <li><button type="submit" class="style1" value="Send" id="sendMessage" />Submit</li>
+	                            <h2 id="thankyou"> Thank you! :) </h2>
+	                        </ul>
+	                    </div>
+	                </form>
+	            </section>
+	        </div>
 
 
             
