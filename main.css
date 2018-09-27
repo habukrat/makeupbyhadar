@@ -60,8 +60,32 @@ section {
 	display: flex;
 }
 
-input, textarea {
+input, textarea, h4{
 	font-family: 'Dosis', sans-serif;
+	width: 300px;
+	margin: 5px 25px 0px;
+}
+
+input, textarea {
+	font-size: 15px;
+	margin: 5px 25px;
+	border: 1px solid #1f1f1f;
+}
+
+button {
+	font-family: 'Dosis', sans-serif;
+	font-size: 20px;
+	margin: 5px 25px;
+	border: 1px solid #1f1f1f;
+	border-radius: 4px;
+	width: 120px;
+	height: 40px;
+}
+
+button:hover {
+	background-color: #e395c0;
+	color: white;
+	box-shadow: 0px 0px 20px #888888;
 }
 
 
