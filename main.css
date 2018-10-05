@@ -39,9 +39,21 @@ li > a:hover{
 
 
 /*Services*/
+.services {
+	display: flex;
+	justify-content: center;
+}
+
 .service {
 	font-size: 30px;
-	text-align: center;
+	text-align: left;
+
+}
+
+h5 {
+	font-size: 20px;
+	text-align: left;
+	margin: auto;
 }
 
 
