@@ -9,6 +9,7 @@ body {
 	text-align: center;
 	margin: auto;
 	font-family: 'Parisienne';
+	text-decoration: none!important;
 }
 
 li {
@@ -34,6 +35,13 @@ li > a:hover{
 #nav {
 	text-align: center;
 	margin-right: 50px;
+}
+
+
+/*Services*/
+.service {
+	font-size: 30px;
+	text-align: center;
 }
 
 
@@ -86,6 +94,7 @@ button:hover {
 	background-color: #e395c0;
 	color: white;
 	box-shadow: 0px 0px 20px #888888;
+	transition: 0.2s;
 }
 
 

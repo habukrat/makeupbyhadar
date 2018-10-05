@@ -1,5 +1,5 @@
-// var slideIndex = 1;
-// showSlides(slideIndex);
+var slideIndex = 1;
+//showSlides(slideIndex);
 
 // Next/previous controls
 function plusSlides(n) {
@@ -31,6 +31,7 @@ $('#sendMessage').click(function(){
 	$('#sendMessage').hide();
 	$('#thankyou').show();
 });
+
 
 function myMap() {
     var mapOptions = {
