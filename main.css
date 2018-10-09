@@ -37,23 +37,37 @@ li > a:hover{
 	margin-right: 50px;
 }
 
+h1 {
+	text-align: center;
+	font-family: 'Tangerine';
+	font-size: 5vw;
+	margin: auto;
+}
+
 
 /*Services*/
 .services {
 	display: flex;
 	justify-content: center;
+	margin-bottom: 1.5rem;
 }
 
 .service {
 	font-size: 30px;
-	text-align: left;
-
+	text-align: center;
+	flex: 50%;
+	float: left;
+	font-family: 'Tangerine';
 }
 
 h5 {
 	font-size: 20px;
 	text-align: left;
 	margin: auto;
+}
+
+#services {
+
 }
 
 
@@ -78,6 +92,7 @@ section {
 #contact {
 	justify-content: center;
 	display: flex;
+	margin-top: 0.5rem;
 }
 
 input, textarea, h4{
