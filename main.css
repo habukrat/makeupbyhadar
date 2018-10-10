@@ -231,7 +231,7 @@ button:hover {
   cursor: pointer;
 }
 
-#modalimg {
+#modalimg, .close, .prev2, .next2 {
 	display: none;
 }
 
