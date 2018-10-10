@@ -30,7 +30,7 @@ function showSlides(n) {
 $('#sendMessage').click(function(){
 	$('#sendMessage').hide();
 	$('#thankyou').show();
-});
+})(jQuery);
 
 
 function myMap() {
