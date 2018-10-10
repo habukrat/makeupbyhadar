@@ -44,6 +44,12 @@ h1 {
 	margin: auto;
 }
 
+h2.service {
+	font-size: 4.5vw;
+	font-family: 'Tangerine', serif;
+	text-align: center;
+}
+
 
 /*Services*/
 .services {
@@ -53,22 +59,32 @@ h1 {
 }
 
 .service {
-	font-size: 30px;
 	text-align: center;
 	flex: 50%;
 	float: left;
-	font-family: 'Tangerine', serif;
+	padding-left: 4rem;
 }
 
 h5 {
-	font-size: 20px;
+	font-size: 2vw;
 	text-align: left;
 	margin: auto;
+	font-family: 'Dosis', sans-serif;
+}
+
+#onsite {
+	font-size: 2.5vw;
+	font-family: 'Tangerine', serif;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 1.5rem;
 }
 
 #services {
-
+	margin-top: 1rem;
 }
+
 
 
 /*Contact page*/
