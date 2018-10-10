@@ -27,11 +27,9 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
-$(function(){
-	$('#sendMessage').click(function(){
-		$('#sendMessage').hide();
-		$('#thankyou').show();
-	});
+$('#sendMessage').click(function(){
+	$('#sendMessage').hide();
+	$('#thankyou').show();
 });
 
 
