@@ -231,6 +231,10 @@ button:hover {
   cursor: pointer;
 }
 
+#modalimg {
+	display: none;
+}
+
 
 
 
