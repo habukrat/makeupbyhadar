@@ -13,7 +13,7 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	</head>
 
-	<body onload="showSlides(1)">
+	<body>
 		<div>
 
 			<!-- Header -->
@@ -39,35 +39,57 @@
 			<div class="row">
 			  	<div class="column">
 			    	<div class="content">
-				      	<img id="portfolio" src="images/image1.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow"">
+				      	<img class="portfolio" src="images/image1.jpg" style="width:100%" onclick="openModal();currentSlide2(1)" class="hover-shadow"">
 			    	</div>
 			  	</div>
 			  	<div class="column">
 			    	<div class="content">
-			      		<img id="portfolio" src="images/image2.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow"">
+			      		<img class="portfolio" src="images/image2.jpg" style="width:100%" onclick="openModal();currentSlide2(2)" class="hover-shadow"">
 			    	</div>
 			  	</div>
 				<div class="column">
 				    <div class="content">
-					    <img id="portfolio" src="images/image3.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow"">
+					    <img class="portfolio" src="images/image3.jpg" style="width:100%" onclick="openModal();currentSlide2(3)" class="hover-shadow"">
 				    </div>
 				</div>
 			  	<div class="column">
 			    	<div class="content">
-			      		<img id="portfolio" src="images/image4.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow"">
+			      		<img class="portfolio" src="images/image4.jpg" style="width:100%" onclick="openModal();currentSlide2(4)" class="hover-shadow"">
 			    	</div>
 			  	</div>
 			  	<div class="column">
 			    	<div class="content">
-			      		<img id="portfolio" src="images/image5.jpg" style="width:100%" onclick="openModal();currentSlide(5)" class="hover-shadow"">
+			      		<img class="portfolio" src="images/image5.jpg" style="width:100%" onclick="openModal();currentSlide2(5)" class="hover-shadow"">
 			    	</div>
 			  	</div>
 			  	<div class="column">
 			    	<div class="content">
-			      		<img id="portfolio" src="images/image6.jpg" style="width:100%" onclick="openModal();currentSlide(6)" class="hover-shadow"">
+			      		<img class="portfolio" src="images/image6.jpg" style="width:100%" onclick="openModal();currentSlide2(6)" class="hover-shadow"">
+			    	</div>
+			  	</div>
+				<div class="column">
+			    	<div class="content">
+			      		<img class="portfolio" src="images/image7.jpg" style="width:100%" onclick="openModal();currentSlide2(7)" class="hover-shadow"">
 			    	</div>
 			  	</div>
 			</div>
+
+			<!-- The Modal/Lightbox -->
+		<div id="myModal" class="modal">
+		  	<span class="close cursor" onclick="closeModal()">&times;</span>
+		  	<div class="modal-content">
+
+		      	<img id="modalimg" src="images/image6.jpg" style="width:100%">
+
+			    <!-- Next/previous controls -->
+			    <a class="prev" onclick="plusSlides2(-1)">&#10094;</a>
+			    <a class="next" onclick="plusSlides2(1)">&#10095;</a>
+
+
+		  	</div>
+		</div>
+
+
 
             
 			<!-- Footer -->

@@ -41,3 +41,36 @@ function myMap() {
     }
 	var map = new google.maps.Map(document.getElementById("map"), mapOptions);
 }
+
+// Open the Modal
+function openModal() {
+  document.getElementById('myModal').style.display = "block";
+}
+
+// Close the Modal
+function closeModal() {
+  document.getElementById('myModal').style.display = "none";
+}
+
+var slideIndex2 = 1;
+showSlides2(slideIndex2);
+
+// Next/previous controls
+function plusSlides2(n) {
+  showSlides2(slideIndex2 += n);
+}
+
+// Thumbnail image controls
+function currentSlide2(n) {
+  showSlides2(slideIndex2 = n);
+}
+
+function showSlides2(n) {
+  var i;
+  var slides = document.getElementsByClassName("portfolio");
+  if (n > slides.length) {slideIndex2 = 1;}
+  if (n < 1) {slideIndex2 = slides.length;}
+  var modal = document.getElementById("modalimg");
+  modal.src = slides[slideIndex2-1].src;
+  modal.style.display = "block";
+}
