@@ -8,7 +8,7 @@ body {
 	display: block;
 	text-align: center;
 	margin: auto;
-	font-family: 'Parisienne';
+	font-family: 'Parisienne', serif;
 	text-decoration: none!important;
 }
 
@@ -39,7 +39,7 @@ li > a:hover{
 
 h1 {
 	text-align: center;
-	font-family: 'Tangerine';
+	font-family: 'Tangerine', serif;
 	font-size: 5vw;
 	margin: auto;
 }
@@ -57,7 +57,7 @@ h1 {
 	text-align: center;
 	flex: 50%;
 	float: left;
-	font-family: 'Tangerine';
+	font-family: 'Tangerine', serif;
 }
 
 h5 {
