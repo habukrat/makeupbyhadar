@@ -73,4 +73,7 @@ function showSlides2(n) {
   var modal = document.getElementById("modalimg");
   modal.src = slides[slideIndex2-1].src;
   modal.style.display = "block";
+  document.getElementByClass("close").style.display = "block";
+  document.getElementByClass("prev2").style.display = "block";
+  document.getElementByClass("next2").style.display = "block";
 }
