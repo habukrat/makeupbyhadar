@@ -1,6 +1,5 @@
 body {
 	background-color: #ffdfe9;
-	margin-left: 20px;
 }
 
 .header {
@@ -37,6 +36,16 @@ li > a:hover{
 	text-align: center;
 	margin-right: 50px;
 }
+
+#footer {
+  text-align: center;
+  font-family: 'Dosis', serif;
+}
+
+.icons {
+  margin-left: -35px;
+}
+
 
 h1 {
 	text-align: center;
@@ -87,6 +96,15 @@ h5 {
 
 #lessons {
 	padding-left: 0rem;
+}
+
+#title {
+  margin-left: 1rem;
+  padding-left: 5rem;
+}
+
+#serviceList {
+  padding-left: 2rem;
 }
 
 div.service {
