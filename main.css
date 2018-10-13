@@ -40,6 +40,7 @@ li > a:hover{
 #footer {
   text-align: center;
   font-family: 'Dosis', serif;
+  font-size: 1.8vw;
 }
 
 .icons {
@@ -99,7 +100,6 @@ h5 {
 }
 
 #title {
-  margin-left: 1rem;
   padding-left: 5rem;
 }
 
