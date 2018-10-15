@@ -34,12 +34,15 @@ $('#sendMessage').click(function(){
 
 
 function myMap() {
-    var mapOptions = {
-        center: new google.maps.LatLng(34.050870, -118.237088),
-        zoom: 10,
-        mapTypeId: google.maps.MapTypeId.ROADMAP
-    }
+  var myCenter = new google.maps.LatLng(34.055702, -118.380192);
+  var mapOptions = {
+    center: myCenter,
+    zoom: 10,
+    mapTypeId: google.maps.MapTypeId.ROADMAP
+  }
 	var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+  var marker = new google.maps.Marker({position: myCenter});
+  marker.setMap(map);
 }
 
 // Open the Modal

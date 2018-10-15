@@ -136,6 +136,14 @@ section {
 	margin-top: 0.5rem;
 }
 
+#contactInfo {
+  font-size: 20px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  font-family: 'Dosis', sans-serif;
+}
+
 input, textarea, h4{
 	font-family: 'Dosis', sans-serif;
 	width: 300px;
