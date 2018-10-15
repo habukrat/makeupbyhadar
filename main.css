@@ -137,7 +137,7 @@ section {
 }
 
 #contactInfo {
-  font-size: 20px;
+  font-size: 2.3vw;
   text-align: center;
   justify-content: center;
   display: flex;
@@ -264,6 +264,25 @@ button:hover {
 
 
 /*Images slideshow on homepage*/
+
+.main {
+  position: relative;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#mainContent {
+  font-family: 'Dosis', sans-serif;
+  font-size: 2vw;
+  padding-left: 2vw;
+  padding-right: 4vw;
+}
+
+#slides {
+  padding-left: 4vw; 
+}
 
 * {box-sizing:border-box}
 
