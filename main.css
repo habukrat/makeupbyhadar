@@ -276,7 +276,7 @@ button:hover {
 #mainContent {
   font-family: 'Dosis', sans-serif;
   font-size: 2vw;
-  padding-left: 2vw;
+  padding-left: 10px;
   padding-right: 4vw;
 }
 
