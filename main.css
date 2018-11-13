@@ -28,7 +28,7 @@ li > a {
 
 li > a:hover{
 	color: black;
-    text-shadow: 1px 1px 2px black, 0 0 25px purple, 0 0 5px white;
+    text-shadow: 1px 1px 2px black, 0 0 25px #ff35e4, 0 0 5px white;
     transition: 0.3s;
 }
 
@@ -63,6 +63,16 @@ h2.service {
 	font-size: 4.5vw;
 	font-family: 'Tangerine', serif;
 	text-align: center;
+}
+
+/*Artist*/
+.image-container {
+  max-width: 350px;
+  max-height: 350px;
+  position: relative;
+  margin-left: 50px;
+  margin-right: 40px;
+  box-shadow: 0px 0px 20px black;
 }
 
 
@@ -293,6 +303,7 @@ button:hover {
 /* Slideshow container */
 .slideshow-container {
   max-width: 450px;
+  max-height: 450px;
   position: relative;
   margin: auto;
   box-shadow: 0px 0px 20px black;
